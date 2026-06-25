@@ -4,7 +4,7 @@ Satellite-driven detection of *Hemileia vastatrix* (Coffee Leaf Rust) in pre-sym
 stages across 10,740 ha of forest coffee in Southwest Ethiopia, built at the
 **Treefera LCAW 2026 Hackathon** (London Climate Week, BlueFin Building, 25 June 2026).
 
-🏆 **People's Choice Award** — voted by Treefera employees
+ **People's Choice Award** — voted by Treefera employees
 
 ---
 
