@@ -53,10 +53,10 @@ else:
     print(f"Using time step {best_t}: {best_date}")
 
     # ── extract bands ──────────────────────────────────────────────────────────
-    red  = b04[best_t].astype(float)
-    re1  = b05[best_t].astype(float)
-    re3  = b07[best_t].astype(float)
-    nir  = b08[best_t].astype(float)
+    red = b04[best_t].astype(float) / 10000
+    re1 = b05[best_t].astype(float) / 10000
+    re3 = b07[best_t].astype(float) / 10000
+    nir = b08[best_t].astype(float) / 10000
     mask = (red > 0) & (nir > 0) & (re1 > 0) & (re3 > 0)
 
     with np.errstate(invalid="ignore", divide="ignore"):
